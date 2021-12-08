@@ -18,16 +18,6 @@ body {
     min-height: 30vh;
 }
 
-.front-text-visit {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    color: #FFF;
-    background-color: black;
-}
-
 /* KART maks høyde*/
 .map_container iframe {
     height: 300px;
@@ -77,8 +67,3 @@ h2 {
 }
 }
 
-@media (min-width: 1041px) {
-    .front-text-visit {
-        top: 38%;
-    }
-}

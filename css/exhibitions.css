@@ -14,16 +14,6 @@ body {
     min-height: 30vh;
 }
 
-.front-text-exhib {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    color: #FFF;
-    background-color: black;
-}
-
 /* fikse selve layout*/
 /* bilder*/
 .ex-img {
@@ -41,7 +31,7 @@ h2 {
     max-width: 800px;
 }
 
-section > div {
+.ex > div {
     width: 100%;
 }
 
@@ -55,10 +45,6 @@ section > div {
     background-position-x: center;
     background-position-y: bottom;
     min-height: 50vh;
-}
-
-.front-text-exhib {
-    top: 38%;
 }
 
     .ex {
