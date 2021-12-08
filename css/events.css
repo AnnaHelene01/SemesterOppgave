@@ -1,0 +1,42 @@
+/* MAIN CONTENT PÅ SIDEN*/
+/* IMAGE ØVERST MED SENTRERT TEKST*/
+.front-image-events {
+    background-image: url('/semesterimages/library-1132573_1920.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 30vh;
+}
+
+.front-text-events {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #FFF;
+    background-color: black;
+}
+
+/* H3 headers*/
+h3 {
+    text-align: center;
+}
+
+@media (min-width: 1041px) {
+    .front-image-events {
+        background-image: url('/semesterimages/library-desktop.jpg');
+        background-size: cover;
+        filter: brightness(50%);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        min-height: 50vh;
+    }
+
+    .front-text-events {
+        top: 38%;
+    }
+}

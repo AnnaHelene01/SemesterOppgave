@@ -1,0 +1,74 @@
+body {
+    background-color: #FFF;
+}
+
+/* MAIN CONTENT PÅ SIDEN*/
+/* IMAGE ØVERST MED SENTRERT TEKST*/
+.front-image-exhib {
+    background-image: url('/semesterimages/mammoth-1257288_1920.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 30vh;
+}
+
+.front-text-exhib {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #FFF;
+    background-color: black;
+}
+
+/* fikse selve layout*/
+/* bilder*/
+.ex-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+.textbox {
+    padding: 10px;
+    max-width: 800px;
+}
+
+section > div {
+    width: 100%;
+}
+
+@media screen and (min-width: 1041px) {
+    
+
+/*Få layout "sikkksakk" med bilder og tekst */
+.front-image-exhib {
+    background-image: url('/semesterimages/mammoth-desktop.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 50vh;
+}
+
+.front-text-exhib {
+    top: 38%;
+}
+
+    .ex {
+       display: flex;
+       flex: 50%;
+   }
+
+    section:nth-child(even) {
+        flex-direction: row-reverse; 
+      }
+}

@@ -1,0 +1,101 @@
+/* MAIN CONTENT PÅ SIDEN*/
+/* IMAGE ØVERST MED SENTRERT TEKST*/
+.front-image-getinvolved {
+    background-image: url('/semesterimages/involved.jpeg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 30vh;
+}
+
+.front-text-getinvolved {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #FFF;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.getinvolved-part {
+    flex: 100%;
+    min-width: 400px;
+    margin: 30px;
+    background-color: #FFF;
+}
+
+/*SKJEMA*/
+/*Sette maks bredde, aligne senter og sette font */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Gjøre input-ene litt høyere*/
+#name, #email {
+    height: 2.5em;
+}
+
+/* Ordne tekstboks*/
+select,
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+
+textarea {
+    vertical-align: top;    /*Flytte den øverst */
+    height: 4em;
+    resize: vertical;
+}
+
+textarea {
+    height: 60%;
+    min-height: 100px;
+}
+
+.contact {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Plassere nedover*/
+.form-wrapper {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.form-wrapper > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1041px) {
+.front-image-getinvolved {
+    background-image: url('/semesterimages/involved-desktop.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 50vh;
+}
+
+.front-text-getinvolved {
+    top: 38%;
+}
+}

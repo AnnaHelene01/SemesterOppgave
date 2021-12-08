@@ -1,0 +1,47 @@
+/* MAIN CONTENT PÅ SIDEN*/
+/* IMAGE ØVERST MED SENTRERT TEKST*/
+.front-image-explore {
+    background-image: url('/semesterimages/billetto-editorial-334686.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 30vh;
+}
+
+.front-text-explore {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #FFF;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* IMAGES FRA MUSEUM */
+.museum-images {
+    text-align: center;
+    margin: 10px;
+}
+
+@media (min-width: 1041px) {
+.front-image-explore {
+    background-image: url('/semesterimages/explore-desktop.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 50vh;
+}
+
+.front-text-explore {
+    top: 38%;
+}
+}

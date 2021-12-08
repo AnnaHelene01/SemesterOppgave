@@ -1,2 +1,2 @@
-# SemesterOppgave
-SEMESTER OPPGAVE FRONTEND NOROFF semester 1: 2021
+# SemesterTEST
+Testing av koder til Semester oppgave
