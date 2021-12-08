@@ -28,7 +28,7 @@ body {
 /* bilder*/
 .ex-img {
     width: 100%;
-    height: 400px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -46,8 +46,6 @@ section > div {
 }
 
 @media screen and (min-width: 1041px) {
-    
-
 /*Få layout "sikkksakk" med bilder og tekst */
 .front-image-exhib {
     background-image: url('/semesterimages/mammoth-desktop.jpg');
@@ -71,4 +69,8 @@ section > div {
     section:nth-child(even) {
         flex-direction: row-reverse; 
       }
+
+    .ex-img {
+        height: 400px;
+    }
 }
