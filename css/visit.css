@@ -44,19 +44,20 @@ h2 {
     text-align: center;
 }
 
+/*Sette maks bredde på map img slik at den responderer godt til mindre skjermer */
+.img-visit {
+    max-width: 100%;
+}
 
-  @media (min-width: 900px) {
+@media (min-width: 900px) {
   /* Tekst innhold responsivt:*/
-
   .visit-content {
       display: flex;
       flex-direction: row;
       justify-content: center;
   }
-}
 
-@media (min-width: 900px) {
-.front-image-visit {
+  .front-image-visit {
     background-image: url('/semesterimages/Untitled.jpg');
     background-size: cover;
     filter: brightness(50%);
@@ -64,6 +65,7 @@ h2 {
     background-position-x: center;
     background-position-y: top;
     min-height: 50vh;
+  }
 }
-}
+
 
