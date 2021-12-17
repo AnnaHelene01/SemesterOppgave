@@ -301,10 +301,10 @@ footer {
     min-height: 50vh;
 }
 
-/* Flytte tekst i bakgrunnsbilde mot midten*/
-.front-text {
-    top: 38%;
-}
+   /* Flytte tekst i bakgrunnsbilde mot midten*/
+   .front-text {
+       top: 38%;
+   }
 
    .explore-part,
    .getinvolved-part { /* flexe bildene og sette maks bredde*/

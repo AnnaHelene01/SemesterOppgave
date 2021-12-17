@@ -3,11 +3,6 @@ body {
 }
 /* MAIN CONTENT PÅ SIDEN*/
 /* IMAGE ØVERST MED SENTRERT TEKST*/
-/* body {
-    max-width: 1280px;
-    margin: 0 auto;
-} */
-
 .front-image-visit {
     background-image: url('/semesterimages/scott-webb-102825.jpg');
     background-size: cover;
